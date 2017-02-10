@@ -1,0 +1,27 @@
+var arr = ["Orange","Apple","Kiwi","Mango","Banana","Pineapple"];
+document.write('0.', arr, '<br>');
+arr.splice(2, 0, ["Pear","Lemon","Cherry"]);
+document.write('1.', arr, '<br>');
+arr.shift();
+arr.shift();
+document.write('2.', arr, '<br>');
+arr.push("Plum");
+document.write('3.', arr, '<br>');
+arr.splice(1,2);
+arr.splice(1, 0, ["Mandarin", "Merry"]);
+document.write('4.', arr, '<br>');
+arr.pop();
+document.write('5.', arr, '<br>');
+arr.splice(3,0,["Apricot","Carrot","Date"]);
+document.write('6.', arr, '<br>');
+
+document.write('7.', arr, '<br>');
+arr.unshift(["Pineapple"]);
+arr.push(["Pear"]);
+arr.splice(1,1);
+arr.splice(11,1);
+document.write('8.', arr, '<br>');
+arr.unshift(["Grape"]);
+document.write('9.', arr, '<br>');
+arr.reverse();
+document.write('10.', arr, '<br>');
